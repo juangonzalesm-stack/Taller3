@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Validaciones Avanzadas</title>
+    <link rel="stylesheet" href="../css/ejercicio4.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Formulario con Validaciones Avanzadas</h1>
+
+        <form class="formulario">
+            <div class="fila">
+                <label for="nombre">Nombre Completo:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="nombre" type="text" value="Juan Pérez Gómez" aria-label="Nombre completo">
+                </div>
+            </div>
+
+            <div class="fila">
+                <label for="correo">Correo Electrónico:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="correo" type="email" value="usuario@correo.com" aria-label="Correo electrónico">
+                </div>
+            </div>
+
+            <div class="fila">
+                <label for="telefono">Teléfono:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="telefono" type="tel" value="+52 55 1234 5678" aria-label="Teléfono">
+                </div>
+            </div>
+
+            <div class="fila">
+                <label for="direccion">Dirección:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="direccion" type="text" value="Calle 123, Colonia Centro" aria-label="Dirección">
+                </div>
+            </div>
+
+            <div class="fila">
+                <label for="codigo">Código Postal:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="codigo" type="text" value="28001" aria-label="Código postal">
+                </div>
+            </div>
+
+            <div class="fila">
+                <label for="usuario">ID de Usuario:</label>
+                <div class="campo">
+                    <span class="ejemplo">Ej:</span>
+                    <input id="usuario" type="text" value="User123" aria-label="ID de usuario">
+                </div>
+            </div>
+
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Restablecer</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
